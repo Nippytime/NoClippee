@@ -17,11 +17,11 @@
   "ImageUrls": [
     ""
   ],
-  "DownloadLinkInstall": "",
+  "DownloadLinkInstall": "https://github.com/Nippytime/NoClippee/releases/download/releaserino/Latest.zip",
   "IsHide": false,
   "IsTestingExclusive": false,
-  "DownloadLinkTesting": "",
-  "DownloadLinkUpdate": "",
+  "DownloadLinkTesting": "https://github.com/Nippytime/NoClippee/releases/download/releaserino/Latest.zip",
+  "DownloadLinkUpdate": "https://github.com/Nippytime/NoClippee/releases/download/releaserino/Latest.zip",
   "DownloadCount": 1,
   "LastUpdate": "1696379002"
 },
