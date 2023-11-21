@@ -3,16 +3,25 @@
   "Name": "NoClippee",
   "Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
   "Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
-  "IconUrl": "",
-  "ImageUrls": [
-    ""
-  ],
+  "Changelog": "",
+  "InternalName": "NoClippee",
+  "AssemblyVersion": "0.5.0.14",
   "RepoUrl": "https://github.com/Nippytime/NoClippee",
+  "ApplicableVersion": "any",
   "CategoryTags": [
     "jobs",
     "utility"
   ],
-  "InternalName": "NoClippee",
-  "AssemblyVersion": "9.9.9.9",
-  "Changelog": ""
-}
+  "DalamudApiLevel": 9,
+  "IconUrl": "",
+  "ImageUrls": [
+    ""
+  ],
+  "DownloadLinkInstall": "",
+  "IsHide": false,
+  "IsTestingExclusive": false,
+  "DownloadLinkTesting": "",
+  "DownloadLinkUpdate": "",
+  "DownloadCount": 1,
+  "LastUpdate": "1696379002"
+},
