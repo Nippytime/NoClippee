@@ -117,11 +117,11 @@ namespace NoClippy.Modules
                     return;
                 }
 
-                if (newLock != *(float*)(effectHeader + 0x10))
-                {
-                    PrintError("Mismatched animation lock offset! This can be caused by another plugin affecting the animation lock.");
-                    return;
-                }
+               // if (newLock != *(float*)(effectHeader + 0x10))
+                //{
+               //     PrintError("Mismatched animation lock offset! This can be caused by another plugin affecting the animation lock.");
+               //     return;
+               // }
 
                 // Special case to (mostly) prevent accidentally using XivAlexander at the same time
                 //var isUsingAlexander = newLock % 0.01 is >= 0.0005f and <= 0.0095f;
