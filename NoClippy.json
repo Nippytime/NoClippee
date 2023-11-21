@@ -1,6 +1,6 @@
 ﻿{
   "Author": "UnknownX nip edit",
-  "Name": "NoClippy",
+  "Name": "NoClippee",
   "Punchline": "Reduces the effects of lag on certain aspects of the game, and can show GCD clips",
   "Description": "Reduces the effects of lag on certain aspects of the game, such as weaving and statuses. Usable as an alternative, or in addition, to XivAlexander.",
   "IconUrl": "",
@@ -12,7 +12,7 @@
     "jobs",
     "utility"
   ],
-  "InternalName": "NoClippy",
+  "InternalName": "NoClippee",
   "AssemblyVersion": "9.9.9.9",
   "Changelog": ""
 }
