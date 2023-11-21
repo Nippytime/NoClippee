@@ -57,7 +57,8 @@ namespace NoClippy.Modules
         private bool saveConfig = false;
         private readonly Dictionary<ushort, float> appliedAnimationLocks = new();
 
-        public bool IsDryRunEnabled => enableAnticheat || Config.EnableDryRun;
+        public bool IsDryRunEnabled => Config.EnableDryRun;
+
 
         private float AverageDelay(float currentDelay, float weight) =>
             delay > 0
@@ -123,12 +124,12 @@ namespace NoClippy.Modules
                 }
 
                 // Special case to (mostly) prevent accidentally using XivAlexander at the same time
-                var isUsingAlexander = newLock % 0.01 is >= 0.0005f and <= 0.0095f;
-                if (!enableAnticheat && isUsingAlexander)
-                {
-                    enableAnticheat = true;
-                    PrintError($"Unexpected lock of {F2MS(newLock)} ms, temporary dry run has been enabled. Please disable any other programs or plugins that may be affecting the animation lock.");
-                }
+                //var isUsingAlexander = newLock % 0.01 is >= 0.0005f and <= 0.0095f;
+                //if (!enableAnticheat && isUsingAlexander)
+                //{
+                //    enableAnticheat = true;
+                //    PrintError($"Unexpected lock of {F2MS(newLock)} ms, temporary dry run has been enabled. Please disable any other programs or plugins that may be affecting the animation lock.");
+                //}
 
                 var sequence = *(ushort*)(effectHeader + 0x18); // This is 0 for some special actions
                 var actionID = *(ushort*)(effectHeader + 0x1C);
